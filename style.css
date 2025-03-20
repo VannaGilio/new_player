@@ -14,7 +14,6 @@ main{
 #cardlogin{
     background-color: #1F112A;
     padding: 2rem;
-    width: 13vw;
     gap: 5px;
     border-radius: 20px;
     display: flex;
@@ -27,12 +26,12 @@ main{
     font-style: normal;
 }
 #cardlogin img{
-    width: 8rem;
+    width: 7rem;
 }
 #dados{
     color: white;
     display: flex;
-    height: 10vh;
+    height: auto;
     width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
@@ -53,7 +52,6 @@ input{
 }
 button{
     background-color: #DEC8EF;
-    border: none;
     color: #422B54;
     cursor: pointer;
     border-radius: 6px;

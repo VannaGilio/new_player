@@ -14,9 +14,6 @@ main{
 }
 #container{
     background-color: #1F112A;
-    padding: 2rem;
-    width: auto;
-    gap: 20px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -29,11 +26,13 @@ main{
 }
 #container img{
     width: 7rem;
+    padding-top: 2rem;
 }
 p{
     color: #ffffff;
 }
 input{
+    width: 100%;
     color: #ffffff;
     background-color: #422B54;
     border-radius: 6px;
@@ -45,7 +44,6 @@ input{
 }
 button{
     background-color: #DEC8EF;
-    border: none;
     color: #422B54;
     cursor: pointer;
     border-radius: 6px;
@@ -55,4 +53,11 @@ button{
     font-style: normal;
     font-size: 20px;
     border: solid #000000;
+}
+#div-button{
+    padding: 1rem;
+}
+a{
+    color: #422B54;
+    text-decoration: none;
 }
